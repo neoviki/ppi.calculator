@@ -25,13 +25,13 @@ if argc < 4:
     inp = input("\tEnter the screen size ( in inches ) \t: ")
     diagonal_length=float(inp)
     inp = input("\tEnter the screen resolution ( x-axis ) \t: ")
-    px=int(inp)
+    px=float(inp)
     inp = input("\tEnter the screen resolution ( y-axis ) \t: ")
-    py=int(inp)
+    py=float(inp)
 else:
     diagonal_length=float(sys.argv[1])
-    px=int(sys.argv[2])
-    py=int(sys.argv[3])
+    px=float(sys.argv[2])
+    py=float(sys.argv[3])
 
 print("\n\nINPUTS:\n\n")
 
